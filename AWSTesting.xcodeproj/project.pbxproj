@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C87A02729A178167BEDDA4 /* Pods_AWSTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */; };
+		E108D21B2057A72500FFA2BA /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D21A2057A72500FFA2BA /* Items.swift */; };
+		E108E62820562F6B00EBF2CC /* OIDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E62720562F6B00EBF2CC /* OIDC.swift */; };
 		E19673BC20557EE9009AACCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673BB20557EE9009AACCD /* AppDelegate.swift */; };
-		E19673BE20557EE9009AACCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673BD20557EE9009AACCD /* ViewController.swift */; };
+		E19673BE20557EE9009AACCD /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673BD20557EE9009AACCD /* SignInController.swift */; };
 		E19673C120557EE9009AACCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19673BF20557EE9009AACCD /* Main.storyboard */; };
 		E19673C320557EE9009AACCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19673C220557EE9009AACCD /* Assets.xcassets */; };
 		E19673C620557EE9009AACCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19673C420557EE9009AACCD /* LaunchScreen.storyboard */; };
+		E19673CE20558E56009AACCD /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673CD20558E56009AACCD /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E108D21A2057A72500FFA2BA /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		E108E62720562F6B00EBF2CC /* OIDC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIDC.swift; sourceTree = "<group>"; };
 		E19673B820557EE9009AACCD /* AWSTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19673BB20557EE9009AACCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E19673BD20557EE9009AACCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E19673BD20557EE9009AACCD /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		E19673C020557EE9009AACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E19673C220557EE9009AACCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19673C520557EE9009AACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E19673C720557EE9009AACCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19673CD20558E56009AACCD /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		F07BFECEF1FC77F1789D3A1E /* Pods-AWSTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		F5496C71AA4496691F08ACA8 /* Pods-AWSTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C87A02729A178167BEDDA4 /* Pods_AWSTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		322522F024359E34C8AF7DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E19673AF20557EE9009AACCD = {
 			isa = PBXGroup;
 			children = (
 				E19673BA20557EE9009AACCD /* AWSTesting */,
 				E19673B920557EE9009AACCD /* Products */,
+				EF6AF076CE205D2740864C54 /* Pods */,
+				322522F024359E34C8AF7DE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				E19673BB20557EE9009AACCD /* AppDelegate.swift */,
-				E19673BD20557EE9009AACCD /* ViewController.swift */,
+				E108E62720562F6B00EBF2CC /* OIDC.swift */,
+				E108D21A2057A72500FFA2BA /* Items.swift */,
+				E19673BD20557EE9009AACCD /* SignInController.swift */,
+				E19673CD20558E56009AACCD /* MainController.swift */,
 				E19673BF20557EE9009AACCD /* Main.storyboard */,
 				E19673C220557EE9009AACCD /* Assets.xcassets */,
 				E19673C420557EE9009AACCD /* LaunchScreen.storyboard */,
 				E19673C720557EE9009AACCD /* Info.plist */,
 			);
 			path = AWSTesting;
+			sourceTree = "<group>";
+		};
+		EF6AF076CE205D2740864C54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F07BFECEF1FC77F1789D3A1E /* Pods-AWSTesting.debug.xcconfig */,
+				F5496C71AA4496691F08ACA8 /* Pods-AWSTesting.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E19673CA20557EE9009AACCD /* Build configuration list for PBXNativeTarget "AWSTesting" */;
 			buildPhases = (
+				BC6A56280AFC5BBAC996A743 /* [CP] Check Pods Manifest.lock */,
 				E19673B420557EE9009AACCD /* Sources */,
 				E19673B520557EE9009AACCD /* Frameworks */,
 				E19673B620557EE9009AACCD /* Resources */,
+				CA10976F11BD1CC7325DB2F4 /* [CP] Embed Pods Frameworks */,
+				3A1AC7EB34C61172291AF633 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +167,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A1AC7EB34C61172291AF633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6A56280AFC5BBAC996A743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSTesting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA10976F11BD1CC7325DB2F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKMS/AWSKMS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLex/AWSLex.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLogs/AWSLogs.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKMS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLogs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSRekognition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E19673B420557EE9009AACCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E19673BE20557EE9009AACCD /* ViewController.swift in Sources */,
+				E108E62820562F6B00EBF2CC /* OIDC.swift in Sources */,
+				E108D21B2057A72500FFA2BA /* Items.swift in Sources */,
+				E19673BE20557EE9009AACCD /* SignInController.swift in Sources */,
+				E19673CE20558E56009AACCD /* MainController.swift in Sources */,
 				E19673BC20557EE9009AACCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +424,7 @@
 		};
 		E19673CB20557EE9009AACCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07BFECEF1FC77F1789D3A1E /* Pods-AWSTesting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +440,7 @@
 		};
 		E19673CC20557EE9009AACCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5496C71AA4496691F08ACA8 /* Pods-AWSTesting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

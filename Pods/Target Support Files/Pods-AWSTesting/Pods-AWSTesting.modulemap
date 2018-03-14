@@ -1,0 +1,6 @@
+framework module Pods_AWSTesting {
+  umbrella header "Pods-AWSTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}
