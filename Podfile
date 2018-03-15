@@ -6,7 +6,5 @@ target 'AWSTesting' do
   use_frameworks!
 
   # Pods for AWSTesting
-  pod 'GoogleSignIn'
-  pod 'AWSiOSSDKv2'
 
 end

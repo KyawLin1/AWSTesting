@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00C87A02729A178167BEDDA4 /* Pods_AWSTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */; };
-		E108D21B2057A72500FFA2BA /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108D21A2057A72500FFA2BA /* Items.swift */; };
-		E108E62820562F6B00EBF2CC /* OIDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E108E62720562F6B00EBF2CC /* OIDC.swift */; };
 		E19673BC20557EE9009AACCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673BB20557EE9009AACCD /* AppDelegate.swift */; };
-		E19673BE20557EE9009AACCD /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673BD20557EE9009AACCD /* SignInController.swift */; };
 		E19673C120557EE9009AACCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19673BF20557EE9009AACCD /* Main.storyboard */; };
 		E19673C320557EE9009AACCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19673C220557EE9009AACCD /* Assets.xcassets */; };
 		E19673C620557EE9009AACCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19673C420557EE9009AACCD /* LaunchScreen.storyboard */; };
@@ -20,11 +17,8 @@
 
 /* Begin PBXFileReference section */
 		CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E108D21A2057A72500FFA2BA /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
-		E108E62720562F6B00EBF2CC /* OIDC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OIDC.swift; sourceTree = "<group>"; };
 		E19673B820557EE9009AACCD /* AWSTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19673BB20557EE9009AACCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E19673BD20557EE9009AACCD /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		E19673C020557EE9009AACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E19673C220557EE9009AACCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19673C520557EE9009AACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,9 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				E19673BB20557EE9009AACCD /* AppDelegate.swift */,
-				E108E62720562F6B00EBF2CC /* OIDC.swift */,
-				E108D21A2057A72500FFA2BA /* Items.swift */,
-				E19673BD20557EE9009AACCD /* SignInController.swift */,
 				E19673CD20558E56009AACCD /* MainController.swift */,
 				E19673BF20557EE9009AACCD /* Main.storyboard */,
 				E19673C220557EE9009AACCD /* Assets.xcassets */,
@@ -212,6 +203,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
@@ -244,6 +237,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
@@ -285,9 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E108E62820562F6B00EBF2CC /* OIDC.swift in Sources */,
-				E108D21B2057A72500FFA2BA /* Items.swift in Sources */,
-				E19673BE20557EE9009AACCD /* SignInController.swift in Sources */,
 				E19673CE20558E56009AACCD /* MainController.swift in Sources */,
 				E19673BC20557EE9009AACCD /* AppDelegate.swift in Sources */,
 			);

@@ -13,20 +13,13 @@ class MainController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func signOut(_ sender: UIBarButtonItem) {
-        GIDSignIn.sharedInstance().signOut()
-        if let appDelegate = UIApplication.shared.delegate as? AppDelegate{
-            appDelegate.showSignIn()
-        }
     }
     
     /*
