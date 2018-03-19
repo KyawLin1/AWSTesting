@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		00C87A02729A178167BEDDA4 /* Pods_AWSTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */; };
+		E1453497205BF6B100A568E8 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1453496205BF6B100A568E8 /* Items.swift */; };
+		E1453499205BF88F00A568E8 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1453498205BF88F00A568E8 /* NotificationName.swift */; };
+		E1548F7E205BCDB600C13E2D /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E1548F7D205BCDB600C13E2D /* awsconfiguration.json */; };
+		E1548F80205BD5DC00C13E2D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1548F7F205BD5DB00C13E2D /* HomeController.swift */; };
 		E19673BC20557EE9009AACCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673BB20557EE9009AACCD /* AppDelegate.swift */; };
 		E19673C120557EE9009AACCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19673BF20557EE9009AACCD /* Main.storyboard */; };
 		E19673C320557EE9009AACCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19673C220557EE9009AACCD /* Assets.xcassets */; };
 		E19673C620557EE9009AACCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19673C420557EE9009AACCD /* LaunchScreen.storyboard */; };
-		E19673CE20558E56009AACCD /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673CD20558E56009AACCD /* MainController.swift */; };
+		E19673CE20558E56009AACCD /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19673CD20558E56009AACCD /* SignInController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC2252C061AEC5D865313CD7 /* Pods_AWSTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1453496205BF6B100A568E8 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		E1453498205BF88F00A568E8 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		E1548F7D205BCDB600C13E2D /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		E1548F7F205BD5DB00C13E2D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		E19673B820557EE9009AACCD /* AWSTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19673BB20557EE9009AACCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19673C020557EE9009AACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E19673C220557EE9009AACCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19673C520557EE9009AACCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E19673C720557EE9009AACCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E19673CD20558E56009AACCD /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		E19673CD20558E56009AACCD /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		F07BFECEF1FC77F1789D3A1E /* Pods-AWSTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		F5496C71AA4496691F08ACA8 /* Pods-AWSTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,10 +78,14 @@
 			isa = PBXGroup;
 			children = (
 				E19673BB20557EE9009AACCD /* AppDelegate.swift */,
-				E19673CD20558E56009AACCD /* MainController.swift */,
+				E19673CD20558E56009AACCD /* SignInController.swift */,
+				E1453496205BF6B100A568E8 /* Items.swift */,
+				E1453498205BF88F00A568E8 /* NotificationName.swift */,
+				E1548F7F205BD5DB00C13E2D /* HomeController.swift */,
 				E19673BF20557EE9009AACCD /* Main.storyboard */,
 				E19673C220557EE9009AACCD /* Assets.xcassets */,
 				E19673C420557EE9009AACCD /* LaunchScreen.storyboard */,
+				E1548F7D205BCDB600C13E2D /* awsconfiguration.json */,
 				E19673C720557EE9009AACCD /* Info.plist */,
 			);
 			path = AWSTesting;
@@ -151,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19673C620557EE9009AACCD /* LaunchScreen.storyboard in Resources */,
+				E1548F7E205BCDB600C13E2D /* awsconfiguration.json in Resources */,
 				E19673C320557EE9009AACCD /* Assets.xcassets in Resources */,
 				E19673C120557EE9009AACCD /* Main.storyboard in Resources */,
 			);
@@ -202,68 +215,30 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AWSTesting/Pods-AWSTesting-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKMS/AWSKMS.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSLex/AWSLex.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSLogs/AWSLogs.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSGoogleSignIn/AWSGoogleSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
-				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAPIGateway.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKMS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLex.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLogs.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSGoogleSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSRekognition.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
@@ -280,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E19673CE20558E56009AACCD /* MainController.swift in Sources */,
+				E1453497205BF6B100A568E8 /* Items.swift in Sources */,
+				E19673CE20558E56009AACCD /* SignInController.swift in Sources */,
 				E19673BC20557EE9009AACCD /* AppDelegate.swift in Sources */,
+				E1453499205BF88F00A568E8 /* NotificationName.swift in Sources */,
+				E1548F80205BD5DC00C13E2D /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
