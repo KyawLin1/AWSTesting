@@ -12,4 +12,5 @@ target 'AWSTesting' do
   pod 'AWSUserPoolsSignIn', '~> 2.6.13'
   pod 'GoogleSignIn', '~> 4.0'
   pod 'AWSGoogleSignIn', '~> 2.6.13'
+  #alsfjlasjdfl;asjdfljsdlfkjal;skdjflaskjfl;kjaslkfjaslkjfl
 end
